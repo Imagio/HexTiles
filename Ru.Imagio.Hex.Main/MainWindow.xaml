@@ -1,0 +1,11 @@
+﻿<Window x:Class="Ru.Imagio.Hex.Main.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:ui="clr-namespace:Ru.Imagio.Hex.UI;assembly=Ru.Imagio.Hex.UI"
+        Title="MainWindow" Height="350" Width="525">
+    <Canvas>
+        <ui:Hex Size="50"></ui:Hex>
+        <ui:Hex Canvas.Top="100" Size="50"></ui:Hex>
+        <ui:Hex Canvas.Left="87" Canvas.Top="50" Size="50"></ui:Hex>
+    </Canvas>
+</Window>
